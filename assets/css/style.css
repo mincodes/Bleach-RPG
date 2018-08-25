@@ -1,0 +1,77 @@
+html {
+	min-height: 100%;
+	position: relative;
+}
+body {
+	background: url(../images/264177.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Bowlby One', cursive;
+	color:#0fe6a6;
+	margin-bottom: 8.5em;
+}
+
+.container {
+	min-height: 100%;
+}
+
+#header, #game, #active {
+	padding-top: 2em;
+}
+
+h1, h3, button {
+	text-align: center;
+}
+
+
+.charpic {
+	height: 100px;
+	width: 100%;
+	overflow-y: hidden;
+}
+
+.thumbnail img {
+	width: 100%;
+}
+
+.thumbnail .caption {
+	font-size: 75%;
+	text-align: center;
+	padding: 0.25em;
+	margin-bottom: 0px;
+}
+
+.thumbnail {
+	border: 0.2em solid #25de32;
+}
+
+.thumbnail:hover {
+    filter: drop-shadow(0.2em 0.2em 0em #0fe6a6);
+}
+
+
+.btn, .btn-primary, .btn-primary:active, .btn-primary:focus, .btn-primary:visited {
+	color: #0fe6a6;
+	background-color: rgb(16%, 17%, 25%);
+	border-color: #0fe6a6;
+}
+
+.btn-primary:hover {
+	color: #0fe6a6;
+	background-color: rgb(16%, 17%, 25%);
+	border-color: #0fe6a6;
+	
+}
+
+#reset, #fight, #battle {
+	display: none;
+}
+
+#alerts {
+	font-family: "Basic", sans-serif;
+	font-size: 100%;
+	color: #ec3602;
+	text-align: center;
+	min-height: 100%;
+
+}
+
